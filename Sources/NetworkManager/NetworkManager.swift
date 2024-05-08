@@ -1,6 +1,7 @@
 import Foundation
 
-public class NetworkManager{
+@available(iOS 13.0, *)
+public class NetworkManager: ObservableObject{
 
     public init(){}
     
